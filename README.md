@@ -1,4 +1,4 @@
-# Convnets in Tensorflow #
+# Convolutional Neural Networks in TensorFlow #
 A collection of notebooks for projects focused on image classification problems. They make opinionated use of TensorFlow (particularly its Keras API) to create Convolutional Neural Networks (convnets) and rely on openenly available data so that they can be easily run.
 
 ## Overview ##
