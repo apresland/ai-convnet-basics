@@ -1,0 +1,29 @@
+{
+    "exp": {
+      "name": "mobilenet2"
+    },
+    "model":{
+      "name": "mobilenet2",
+      "learning_rate": 0.001,
+      "optimizer": "adam"
+    },
+    "trainer":{
+      "epochs": 20,
+      "batch_size": 64,
+      "verbose_training": true
+    },
+    "callbacks":{
+      "checkpoint_monitor": "val_accuracy",
+      "checkpoint_mode": "max",
+      "checkpoint_save_best_only": true,
+      "checkpoint_save_weights_only": false,
+      "early_stopping_monitor": "val_loss",
+      "early_stopping_patience": 3,
+      "early_stopping_restore_best_weights": true,
+      "reduce_on_plateau_monitor": "val_loss",
+      "reduce_on_plateau_factor": 0.1,
+      "reduce_on_plateau_patience": 1,
+      "tensorboard_write_graph": false,
+      "verbose": true
+    }
+  }
