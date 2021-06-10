@@ -1,5 +1,5 @@
-# Convolutional Neural Networks in TensorFlow #
-A collection of notebooks for projects focused on image classification problems. They make opinionated use of TensorFlow (particularly its Keras API) to create Convolutional Neural Networks (convnets) and rely on openenly available data so that they can be easily run.
+# Medical Image Analysis in TensorFlow #
+A collection of projects focused on medical image analysis. They make use of TensorFlow (particularly its Keras API) to create Neural Networks. They rely on openenly available data so that they can be easily reused.
 
 ## Overview ##
 The following is a brief summary of the projects. 
