@@ -1,4 +1,4 @@
-# Salienecy Detection in Medical Images #
+# Saliency Detection in Medical Images #
 A collection of projects focused on medical image analysis. They make use of TensorFlow (particularly its Keras API) to create Neural Networks. They rely on openenly available data so that they can be easily reused.
 
 ## Overview ##
